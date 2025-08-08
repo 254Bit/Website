@@ -159,3 +159,23 @@ section{
     gap: 30px;
     transition: all .6s ease;
 }
+.col-img img{
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.col-text h4{
+    font-size:22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.col-text p{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+}
+.col:hover{
+    transform: scale(1.04) translateY(-4px);
+    border: 1px solid var(--main-color);
+}
